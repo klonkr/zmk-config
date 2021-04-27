@@ -32,7 +32,7 @@
 //             |  X  | NAV |  SPC |   | TAB | SYM  |  X  |
                         bindings = <
    &kp LBKT             &kp APOS        &kp DOT         &kp P           &kp Y     &kp F     &kp G       &kp C           &kp R           &kp L
-   &hm LCTRL A          &hm LGUI O      &hm LALT U      &hm LSHFT E     &kp I     &kp D     &hm LSHFT H &hm LALT T      &hm LGUI N      &hm LCTRL S
+   &hm LCTRL A          &hm LGUI O      &hm LALT E      &hm LSHFT U     &kp I     &kp D     &hm LSHFT H &hm LALT T      &hm LGUI N      &hm LCTRL S
    &kp SEMICOLON        &kp Q           &kp J           &kp K           &kp X     &kp B     &kp M       &kp W           &kp V           &kp Z
                                         &kp X           &mo 1           &kp SPACE &kp TAB   &mo 2       &kp X
                         >;
