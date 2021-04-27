@@ -31,9 +31,9 @@
 // |  Ö  |  Q  |  J  |  K  |  X   |   |  B  |  M   |  W  |  V  |  Z  |
 //             | GUI | NAV | SHFT |   | SPC | SYM  | ALT |
                         bindings = <
-   &kp A        &kp A           &kp DOT         &kp P           &kp Y     &kp F     &kp G       &kp C           &kp R           &kp L
-   &hm LCTRL A  &hm LGUI O      &hm LALT U      &hm LSHFT E     &kp I     &kp D     &hm LCTRL H &hm LGUI T      &hm LALT N      &hm LSHFT S
-   &kp O        &kp Q           &kp J           &kp K           &kp X     &kp B     &kp M       &kp W           &kp V           &kp Z
+   &kp LBKT             &kp APOS        &kp DOT         &kp P           &kp Y     &kp F     &kp G       &kp C           &kp R           &kp L
+   &hm LCTRL A          &hm LGUI O      &hm LALT U      &hm LSHFT E     &kp I     &kp D     &hm LCTRL H &hm LGUI T      &hm LALT N      &hm LSHFT S
+   &kp SEMICOLON        &kp Q           &kp J           &kp K           &kp X     &kp B     &kp M       &kp W           &kp V           &kp Z
                                 &kp LGUI        &mo 1           &kp LSHFT &kp SPACE &mo 2       &kp RALT
                         >;
                 };
