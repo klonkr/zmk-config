@@ -7,7 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-
+å
 /
 {
         behaviors {
@@ -29,12 +29,12 @@
 // |  Å  |  Ä  |  .  |  P  |  Y   |   |  F  |  G   |  C  |  R  |  L  |
 // |  A  |  O  |  E  |  U  |  I   |   |  D  |  H   |  T  |  N  |  S  |
 // |  Ö  |  Q  |  J  |  K  |  X   |   |  B  |  M   |  W  |  V  |  Z  |
-//             | GUI | NAV | SHFT |   | SPC | SYM  | ALT |
+//             |  X  | NAV |  SPC |   | TAB | SYM  |  X  |
                         bindings = <
    &kp LBKT             &kp APOS        &kp DOT         &kp P           &kp Y     &kp F     &kp G       &kp C           &kp R           &kp L
-   &hm LCTRL A          &hm LGUI O      &hm LALT U      &hm LSHFT E     &kp I     &kp D     &hm LCTRL H &hm LGUI T      &hm LALT N      &hm LSHFT S
+   &hm LCTRL A          &hm LGUI O      &hm LALT U      &hm LSHFT E     &kp I     &kp D     &hm LSHFT H &hm LALT T      &hm LGUI N      &hm LCTRL S
    &kp SEMICOLON        &kp Q           &kp J           &kp K           &kp X     &kp B     &kp M       &kp W           &kp V           &kp Z
-                                &kp LGUI        &mo 1           &kp LSHFT &kp SPACE &mo 2       &kp RALT
+                                        &kp X           &mo 1           &kp SPACE &kp TAB   &mo 2       &kp X
                         >;
                 };
                 nav_layer {
