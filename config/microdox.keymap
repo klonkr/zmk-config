@@ -29,7 +29,7 @@
 // |  Å  |  Ä  |  .  |  P  |  Y   |   |  F  |  G   |  C  |  R  |  L  |
 // |  A  |  O  |  E  |  U  |  I   |   |  D  |  H   |  T  |  N  |  S  |
 // |  Ö  |  Q  |  J  |  K  |  X   |   |  B  |  M   |  W  |  V  |  Z  |
-//             |  X  | NAV |  SPC |   | TAB | SYM  |  X  |
+//             |  X  | NAV |  SPC |   | TAB | SYM  | CDE |
                         bindings = <
    &kp LBKT             &kp APOS        &kp DOT         &kp P           &kp Y     &kp F     &kp G       &kp C           &kp R           &kp L
    &hm LCTRL A          &hm LGUI O      &hm LALT E      &hm LSHFT U     &kp I     &kp D     &hm LSHFT H &hm LALT T      &hm LGUI N      &hm LCTRL S
@@ -69,15 +69,15 @@
 // Leaving it here for completeness.
                 num_layer {
 // -----------------------------------------------------------------------------------------
-// |  <  |  [  |  ]  |  >  |     |   |  A  |  7  |  8  |  9  |  D  |
-// |  {  |  (  |  )  |  }  |     |   |  B  |  4  |  5  |  6  |  E  |
-// |  *  |    |     |     |     |   |  C  |  1  |  2  |  3  |  F  |
+// |  <  |  [  |  ]  |  >  |  :  |   |  A  |  7  |  8  |  9  |  D  |
+// |  {  |  (  |  )  |  }  |  ;  |   |  B  |  4  |  5  |  6  |  E  |
+// |  *  | "|" |  ?  |  !  |  =  |   |  C  |  1  |  2  |  3  |  F  |
 //             |     |     |     |   |  0  |  .  |     |
                         bindings = <
-   &kp NON_US_BSLH      &kp RA(N8)              &kp RA(N9)      &kp LS(NON_US_BSLH)     &trans    &kp A  &kp N7  &kp N8 &kp N9 &kp D
-   &kp RA(N7)           &kp LS(N8)              &kp LS(N9)      &kp RA(N0)              &trans    &kp B  &kp N4  &kp N5 &kp N6 &kp E
-   &kp LS(BSLH)         &kp RA(NON_US_BSLH)     &trans          &trans                  &trans    &kp C  &kp N1  &kp N2 &kp N3 &kp F
-                                                &trans          &trans                  &trans    &kp N0 &kp DOT &trans
+   &kp NON_US_BSLH      &kp RA(N8)              &kp RA(N9)      &kp LS(NON_US_BSLH)     &kp LS(DOT)     &kp A  &kp N7  &kp N8 &kp N9 &kp D
+   &kp RA(N7)           &kp LS(N8)              &kp LS(N9)      &kp RA(N0)              &kp LS(COMMA)   &kp B  &kp N4  &kp N5 &kp N6 &kp E
+   &kp LS(BSLH)         &kp RA(NON_US_BSLH)     &kp LS(MINUS)   &kp LS(N1)              &kp LS(N0)      &kp C  &kp N1  &kp N2 &kp N3 &kp F
+                                                &trans          &trans                  &trans          &kp N0 &kp DOT &trans
                         >;
                 };
         };
