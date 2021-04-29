@@ -44,10 +44,10 @@
 // | BT2 |     |     |      |     |   |     | ENT  | HOME | END |      |
 //             |     |      |     |   |     |      |      |
                         bindings = <
-   &bt BT_CLR   &trans      &kp ESC  &kp TILDE &trans     &trans        &kp LCTRL(LEFT) &kp UP   &kp LCTRL(RIGHT)       &kp DEL
-   &bt BT_SEL 0 &kp K_CMENU &kp RALT &kp LCTRL &mo 3      &trans        &kp LEFT        &kp DOWN &kp RIGHT              &kp BSPC
-   &bt BT_SEL 1 &trans      &trans   &trans    &trans     &trans        &kp RET         &kp HOME &kp END                &trans
-                            &trans   &trans    &trans     &trans        &trans          &trans
+   &bt BT_CLR   &trans      &kp ESC  &kp TILDE &trans     &kp TAB  &kp HOME &kp UP   &kp END   &kp DEL
+   &bt BT_SEL 0 &kp K_CMENU &kp RALT &kp LCTRL &mo 3      &kp FSLH &kp LEFT &kp DOWN &kp RIGHT &kp BSPC
+   &bt BT_SEL 1 &trans      &trans   &trans    &trans     &kp BSLH &kp RET  &trans   &trans    &trans
+                            &trans   &trans    &trans     &trans   &trans   &trans
                         >;
                 };
 
