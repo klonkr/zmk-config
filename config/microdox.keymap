@@ -26,15 +26,15 @@
 
                 default_layer {
 // -----------------------------------------------------------------------------------------
-// |  Å  |  Ä  |  .  |  P  |  Y   |   |  F  |  G   |  C  |  R  |  L  |
+// |  Å  |  Ö  |  .  |  P  |  Y   |   |  F  |  G   |  C  |  R  |  L  |
 // |  A  |  O  |  E  |  U  |  I   |   |  D  |  H   |  T  |  N  |  S  |
-// |  Ö  |  Q  |  J  |  K  |  X   |   |  B  |  M   |  W  |  V  |  Z  |
+// |  Ä  |  Q  |  J  |  K  |  X   |   |  B  |  M   |  W  |  V  |  Z  |
 //             |  X  | NAV |  SPC |   | TAB | SYM  | CDE |
                         bindings = <
-   &kp LBKT             &kp APOS        &kp DOT         &kp P           &kp Y     &kp F     &kp G       &kp C           &kp R           &kp L
-   &hm LCTRL A          &hm LGUI O      &hm LALT E      &hm LSHFT U     &kp I     &kp D     &hm LSHFT H &hm LALT T      &hm LGUI N      &hm LCTRL S
-   &kp SEMICOLON        &kp Q           &kp J           &kp K           &kp X     &kp B     &kp M       &kp W           &kp V           &kp Z
-                                        &kp X           &mo 1           &kp SPACE &kp TAB   &mo 2       &mo 3
+   &kp LBKT     &kp SEMICOLON   &kp DOT         &kp P           &kp Y     &kp F         &kp G       &kp C           &kp R           &kp L
+   &hm LCTRL A  &hm LGUI O      &hm LALT E      &hm LSHFT U     &kp I     &kp D         &hm LSHFT H &hm LALT T      &hm LGUI N      &hm LCTRL S
+   &kp APOS     &kp Q           &kp J           &kp K           &kp X     &kp B         &kp M       &kp W           &kp V           &kp Z
+                                &kp X           &mo 1           &kp SPACE &&lt 2 TAB    &mo 3       &mo 2
                         >;
                 };
                 nav_layer {
@@ -53,15 +53,15 @@
 
                 sym_layer { 
 // -----------------------------------------------------------------------------------------
-// |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  |
-// |     |     |     |     |     |   |  -  |  =  |  {  |  }  | "|" |
-// |     |     |     |     |     |   |  _  |  +  |  [  |  ]  |  \  |
-//             | GUI |     | SPC |   | ENT |     | ALT |
+// |  !  |  @  |  #  |  $  |  %  |   |     |  1  |  2  |  3  |     |
+// |     |     |     |     |     |   |     |  4  |  5  |  6  |  0  |
+// |     |     |     |     |     |   |     |  7  |  8  |  9  |     |
+//             | GUI |     | SPC |   |     |     |     |
                         bindings = <
-   &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR
-   &trans    &trans    &trans    &trans    &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp PIPE
-   &trans    &trans    &trans    &trans    &trans      &trans    &trans    &trans          &trans   &kp BSLH
-                       &kp LGUI  &trans    &kp SPACE   &kp RET   &trans    &kp RALT
+   &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT   &trans  &kp N1  &kp N2 &kp N3 &trans
+   &trans    &trans    &trans    &trans    &trans      &trans  &kp N4  &kp N5 &kp N6 &kp N0
+   &trans    &trans    &trans    &trans    &trans      &trans  &kp N7  &kp N8 &kp N9 &trans
+                       &kp LGUI  &trans    &kp SPACE   &trans  &trans  &trans
                         >;
                 };
 
