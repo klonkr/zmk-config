@@ -67,15 +67,15 @@
 
                 num_layer {
 // -----------------------------------------------------------------------------------------
-// |  <  |  [  |  ]  |  >  |  :  |   |     |  1  |  2  |  3  |     |
-// |  {  |  (  |  )  |  }  |  ;  |   |     |  4  |  5  |  6  |  0  |
-// |  *  | "|" |  ?  |  !  |  =  |   |     |  7  |  8  |  9  |     |
-//             |     |     | RET |   |     |     |     |
+// |  <  |  [  |  ]  |   >  |  :  |   |     |  1  |  2  |  3  |     |
+// |  {  |  (  |  )  |   }  |  ;  |   |     |  4  |  5  |  6  |  0  |
+// |  *  | "|" |  ?  |   !  |  =  |   |     |  7  |  8  |  9  |     |
+//             |     | SHFT | RET |   |     |     |     |
                         bindings = <
    &kp NON_US_BSLH      &kp RA(N8)              &kp RA(N9)      &kp LS(NON_US_BSLH)     &kp LS(DOT)     &none  &kp N1  &kp N2  &kp N3  &none
    &kp RA(N7)           &kp LS(N8)              &kp LS(N9)      &kp RA(N0)              &kp LS(COMMA)   &none  &kp N4  &kp N5  &kp N6  &kp N0
    &kp LS(BSLH)         &kp RA(NON_US_BSLH)     &kp LS(MINUS)   &kp LS(N1)              &kp LS(N0)      &none  &kp N7  &kp N8  &kp N9  &none
-                                                &none           &none                   &kp RET         &none  &none   &none
+                                                &none           &kp LSHFT               &kp RET         &none  &none   &none
                         >;
                 };
 
